@@ -1,0 +1,309 @@
+.header{
+    display: grid;
+    grid-template-columns: 450px 332px 240px;
+    justify-content: start;
+    align-items: center;
+    width: 1052px;
+    margin: 92px 24px 96px;    
+}
+
+
+
+.header_nav{
+    display: flex;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    gap: 32px;
+}
+
+.header__links-list{
+    display: flex;
+    gap: 32px;
+}
+
+.header_menu_item{
+    list-style-type: circle;
+}
+
+.header__links-list-item_no-bullit{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.header__link_active{
+    text-decoration: none;
+}
+
+.header_logo{
+    display: block;
+    width: 148px;
+    height: 105px;
+}
+
+.info{
+    list-style: none;
+    width: 240.52px;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    line-height: 24.3px;
+}
+
+.info_item{
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.info_item_non_active{
+    text-decoration: none;
+    font-style: normal;
+}
+
+
+.cover{
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1100px;     
+    margin-bottom: 179px;   
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #FFFFFF;
+    height: 100%;
+    padding: 165px 50px 51px;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 115px;
+}
+
+.aligned-text{
+    display: flex;
+    justify-content: flex-start;    
+}
+
+.aligned-text_center{
+    display: flex;
+    justify-content: center;   
+ 
+}
+
+.aligned-text_right{
+    display: flex;
+    justify-content: flex-end;   
+}
+
+
+.title_span_A{
+    letter-spacing: 30px;
+}
+
+.title_span_B{
+    letter-spacing: 60px;
+}
+
+.cover__description{
+    display: flex;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 135px;
+    justify-content: space-between;   
+    align-items: center;
+}
+
+.cover__description-text{
+    line-height: 28px;
+    padding-left: 28px;
+    letter-spacing: 0.11em;
+    word-spacing: 0.18em;
+}
+
+.bet-button{
+    border: 1px solid;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    min-height: 51px;
+    padding: 11px 32px;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+
+.lots{
+    margin-top: 179px;
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 1052px;  
+}
+
+.lots__heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46.96px;
+    padding-left: 40px;
+}
+
+.lots__card-list{    
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{    
+    background-color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    width: 334px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+    padding-bottom: 48px; 
+}
+
+.card_type_film,
+.card_type_book,
+.card_type_picture{
+    margin-top: 27px;
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card_type_film{
+    background-image: url(../images/card-lot-01.jpg);
+}
+
+.card_type_book{
+    background-image: url(../images/card-lot-02.jpg);
+}
+
+.card_type_picture{
+    background-image: url(../images/card-lot-03.jpg);
+}
+
+
+.card__title{
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: Raleway, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26.4px;
+    padding-left: 40px;
+    padding-top: 51px;
+    padding-right: 40px;
+}
+
+.card__text{
+    color: rgba(255, 255, 255, 1);
+    font-family: Raleway, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.lots__look-more-link {
+    position: absolute;
+    color: rgba(0, 0, 0, 1);
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    white-space: nowrap;    
+    min-height: 23px;
+    margin-top: 30px;
+    margin-left: 40px;
+    text-decoration: underline;
+}
+
+.about{
+    width: 1052px;
+    margin: 146px 24px 180px;
+    display: flex;
+    gap: 72px;
+}
+
+.about_logo{
+    width: 240px;
+    height: 240px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    margin-left: 47px;
+    background-color: rgba(0, 0, 0);
+    padding: 64px 46px 62px;
+}
+
+.about_auction{
+    padding-top: 136px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 693px;
+}
+
+.about_title{
+    
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+
+.about_desc{
+    font-family: Raleway, Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 100px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    list-style: none;
+}
+
+.footer{
+    justify-content: space-between;
+    margin: 180px 50px 88px;    
+    display: flex;
+}
+
+.footer_nav{
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    text-align: center;
+}
+
+.footer_menu_main{
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer_socials{
+    display: flex;
+    flex-direction: row; 
+    gap: 48px;
+    align-items: flex-start;
+}
